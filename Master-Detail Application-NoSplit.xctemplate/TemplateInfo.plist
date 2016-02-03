@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.masterDetailUnsplitApplication</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.storyboardApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for a master-detail application, WITHOUT using a split view controller.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<!-- languageChoice=Objective-C -->
+					<key>Nodes</key>
+					<array>
+                        <string>AppDelegate.m:imports:importHeader:DetailViewController.h</string>
+						<string>MasterViewController.h:comments</string>
+						<string>MasterViewController.h:imports:importCocoa</string>
+						<string>MasterViewController.h:class:DetailViewController</string>
+						<string>MasterViewController.m:comments</string>
+						<string>MasterViewController.m:imports:importHeader:MasterViewController.h</string>
+						<string>MasterViewController.m:imports:importHeader:DetailViewController.h</string>
+						<string>MasterViewController.m:extension</string>
+						<string>MasterViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>MasterViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>MasterViewController.m:implementation:methods:viewDidLoad:barButtons</string>
+                        <string>MasterViewController.m:implementation:methods:viewWillAppear(- (void\)viewWillAppear:(BOOL\)animated)</string>
+						<string>MasterViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>MasterViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>MasterViewController.m:implementation:methods:insertNewObject(- (void\)insertNewObject:(id\)sender)</string>
+						<string>MasterViewController.m:implementation:methods:insertNewObject:body</string>
+						<string>MasterViewController.m:implementation:methods:prepareForSegue(#pragma mark - Segues
+
+- (void\)prepareForSegue:(UIStoryboardSegue *\)segue sender:(id\)sender)</string>
+						<string>MasterViewController.m:implementation:methods:prepareForSegue:wrapper:object</string>
+						<string>MasterViewController.m:implementation:methods:prepareForSegue:wrapper:setDetailItem</string>
+						<string>MasterViewController.m:implementation:methods:numberOfSectionsInTableView(#pragma mark - Table View
+
+- (NSInteger\)numberOfSectionsInTableView:(UITableView *\)tableView)</string>
+						<string>MasterViewController.m:implementation:methods:numberOfSectionsInTableView:return</string>
+						<string>MasterViewController.m:implementation:methods:numberOfRowsInSection(- (NSInteger\)tableView:(UITableView *\)tableView numberOfRowsInSection:(NSInteger\)section)</string>
+						<string>MasterViewController.m:implementation:methods:numberOfRowsInSection:return</string>
+						<string>MasterViewController.m:implementation:methods:cellForRowAtIndexPath(- (UITableViewCell *\)tableView:(UITableView *\)tableView cellForRowAtIndexPath:(NSIndexPath *\)indexPath)</string>
+						<string>MasterViewController.m:implementation:methods:cellForRowAtIndexPath:wrapper:configure</string>
+						<string>MasterViewController.m:implementation:methods:canEditRowAtIndexPath(- (BOOL\)tableView:(UITableView *\)tableView canEditRowAtIndexPath:(NSIndexPath *\)indexPath)</string>
+						<string>MasterViewController.m:implementation:methods:canEditRowAtIndexPath:return</string>
+						<string>MasterViewController.m:implementation:methods:commitEditingStyle(- (void\)tableView:(UITableView *\)tableView commitEditingStyle:(UITableViewCellEditingStyle\)editingStyle forRowAtIndexPath:(NSIndexPath *\)indexPath)</string>
+						<string>MasterViewController.m:implementation:methods:commitEditingStyle:body</string>
+						<string>DetailViewController.h:comments</string>
+						<string>DetailViewController.h:imports:importCocoa</string>
+						<string>DetailViewController.h:class</string>
+						<string>DetailViewController.m:comments</string>
+						<string>DetailViewController.m:imports:importHeader:DetailViewController.h</string>
+						<string>DetailViewController.m:extension</string>
+						<string>DetailViewController.m:implementation:methods:setDetailItem(#pragma mark - Managing the detail item
+
+- (void\)setDetailItem:(id\)newDetailItem)</string>
+						<string>DetailViewController.m:implementation:methods:setDetailItem:body</string>
+						<string>DetailViewController.m:implementation:methods:configureView(- (void\)configureView)</string>
+						<string>DetailViewController.m:implementation:methods:configureView:detailDescriptionLabel</string>
+						<string>DetailViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>DetailViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>DetailViewController.m:implementation:methods:viewDidLoad:configureView</string>
+						<string>DetailViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>DetailViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+                        <string>MasterViewController.m:implementation:methods:viewDidLoad:detailViewController</string>
+                        <string>MasterViewController.m:implementation:methods:viewWillAppear:setup</string>
+                        <string>DetailViewController.h:interface(DetailViewController : UIViewController)</string>
+                        <string>DetailViewController.h:interface:detailItem</string>
+                        <string>DetailViewController.h:interface:detailDescriptionLabel</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+                        <key>AppDelegate.m:extension</key>
+                        <dict>
+                            <key>Beginning</key>
+                            <string>@interface ___FILEBASENAME___ ()
+</string>
+                            <key>End</key>
+                            <string>@end
+</string>
+                        </dict>
+						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>// Override point for customization after application launch.</string>
+						
+						<key>MasterViewController.m:implementation:methods:viewDidLoad:barButtons</key>
+						<string>self.navigationItem.leftBarButtonItem = self.editButtonItem;
+
+UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+self.navigationItem.rightBarButtonItem = addButton;
+</string>
+						<key>MasterViewController.m:implementation:methods:insertNewObject:body</key>
+						<string>if (!self.objects) {
+    self.objects = [[NSMutableArray alloc] init];
+}
+[self.objects insertObject:[NSDate date] atIndex:0];
+NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+[self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+</string>
+						<key>MasterViewController.m:implementation:methods:numberOfSectionsInTableView:return</key>
+						<string>return 1;
+</string>
+						<key>MasterViewController.m:implementation:methods:numberOfRowsInSection:return</key>
+						<string>return self.objects.count;
+</string>
+						<key>MasterViewController.m:implementation:methods:cellForRowAtIndexPath:wrapper</key>
+						<dict>
+							<key>Beginning</key>
+							<string>UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@&quot;Cell&quot; forIndexPath:indexPath];</string>
+							<key>End</key>
+							<string>return cell;</string>
+						</dict>
+						<key>MasterViewController.m:implementation:methods:cellForRowAtIndexPath:wrapper:configure</key>
+						<string>
+NSDate *object = self.objects[indexPath.row];
+cell.textLabel.text = [object description];
+</string>
+						<key>MasterViewController.m:implementation:methods:canEditRowAtIndexPath:return</key>
+						<string>// Return NO if you do not want the specified item to be editable.
+return YES;
+</string>
+						<key>MasterViewController.m:implementation:methods:commitEditingStyle:body</key>
+						<string>if (editingStyle == UITableViewCellEditingStyleDelete) {
+    [self.objects removeObjectAtIndex:indexPath.row];
+    [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+} else if (editingStyle == UITableViewCellEditingStyleInsert) {
+    // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+}
+</string>
+						<key>MasterViewController.m:implementation:methods:prepareForSegue:wrapper</key>
+						<dict>
+							<key>Beginning</key>
+							<string>if ([[segue identifier] isEqualToString:@&quot;showDetail&quot;]) {
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];</string>
+							<key>End</key>
+							<string>}</string>
+						</dict>
+						<key>MasterViewController.m:implementation:methods:prepareForSegue:wrapper:object</key>
+						<string>    NSDate *object = self.objects[indexPath.row];</string>
+						<key>MasterViewController.m:implementation:methods:prepareForSegue:wrapper:setDetailItem</key>
+						<string>    DetailViewController *controller = (DetailViewController *)[segue destinationViewController];
+    [controller setDetailItem:object];</string>
+						<key>DetailViewController.h:interface:detailDescriptionLabel</key>
+						<string>@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;</string>
+						<key>DetailViewController.h:interface:detailItem</key>
+						<string>@property (strong, nonatomic) id detailItem;</string>
+						<key>DetailViewController.m:implementation:methods:setDetailItem:body</key>
+						<string>if (_detailItem != newDetailItem) {
+    _detailItem = newDetailItem;
+        
+    // Update the view.
+    [self configureView];
+}
+</string>
+						<key>DetailViewController.m:implementation:methods:configureView:detailDescriptionLabel</key>
+						<string>// Update the user interface for the detail item.
+if (self.detailItem) {
+    self.detailDescriptionLabel.text = [self.detailItem description];
+}</string>
+						<key>DetailViewController.m:implementation:methods:viewDidLoad:configureView</key>
+						<string>[self configureView];</string>
+                        
+					</dict>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<!-- languageChoice=Swift -->
+					<key>Nodes</key>
+					<array>
+						<string>MasterViewController.swift:comments</string>
+						<string>MasterViewController.swift:imports:importCocoa</string>
+						<string>MasterViewController.swift:implementation</string>
+						<string>MasterViewController.swift:implementation:properties:detailViewController</string>
+						<string>MasterViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>MasterViewController.swift:implementation:methods:viewDidLoad:super</string>
+						<string>MasterViewController.swift:implementation:methods:viewDidLoad:barButtons</string>
+                        <string>MasterViewController.swift:implementation:methods:viewWillAppear(override func viewWillAppear(animated: Bool\))</string>
+						<string>MasterViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>MasterViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>MasterViewController.swift:implementation:methods:insertNewObject(func insertNewObject(sender: AnyObject\))</string>
+						<string>MasterViewController.swift:implementation:methods:insertNewObject:body</string>
+						<string>MasterViewController.swift:implementation:methods:prepareForSegue(// MARK: - Segues
+
+override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?\))</string>
+						<string>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper:object</string>
+						<string>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper:setDetailItem</string>
+						<string>MasterViewController.swift:implementation:methods:numberOfSectionsInTableView(// MARK: - Table View
+
+override func numberOfSectionsInTableView(tableView: UITableView\) -&gt; Int)</string>
+						<string>MasterViewController.swift:implementation:methods:numberOfSectionsInTableView:return</string>
+						<string>MasterViewController.swift:implementation:methods:numberOfRowsInSection(override func tableView(tableView: UITableView, numberOfRowsInSection section: Int\) -&gt; Int)</string>
+						<string>MasterViewController.swift:implementation:methods:numberOfRowsInSection:return</string>
+						<string>MasterViewController.swift:implementation:methods:cellForRowAtIndexPath(override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath\) -&gt; UITableViewCell)</string>
+						<string>MasterViewController.swift:implementation:methods:cellForRowAtIndexPath:wrapper:configure</string>
+						<string>MasterViewController.swift:implementation:methods:canEditRowAtIndexPath(override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath\) -&gt; Bool)</string>
+						<string>MasterViewController.swift:implementation:methods:canEditRowAtIndexPath:return</string>
+						<string>MasterViewController.swift:implementation:methods:commitEditingStyle(override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath\))</string>
+						<string>MasterViewController.swift:implementation:methods:commitEditingStyle:body</string>
+						<string>DetailViewController.swift:comments</string>
+						<string>DetailViewController.swift:imports:importCocoa</string>
+                        <string>DetailViewController.swift:implementation(DetailViewController: UIViewController)</string>
+						<string>DetailViewController.swift:implementation:properties:detailDescriptionLabel</string>
+						<string>DetailViewController.swift:implementation:methods:detailItem(var detailItem: AnyObject?)</string>
+						<string>DetailViewController.swift:implementation:methods:detailItem:didSet</string>
+						<string>DetailViewController.swift:implementation:methods:configureView(func configureView(\))</string>
+						<string>DetailViewController.swift:implementation:methods:configureView:detailDescriptionLabel</string>
+						<string>DetailViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>DetailViewController.swift:implementation:methods:viewDidLoad:super</string>
+						<string>DetailViewController.swift:implementation:methods:viewDidLoad:configureView</string>
+						<string>DetailViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>DetailViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+                        <string>MasterViewController.swift:implementation:methods:viewDidLoad:detailViewController</string>
+                        <string>MasterViewController.swift:implementation:methods:viewWillAppear:setup</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>// Override point for customization after application launch.
+</string>
+						<key>MasterViewController.swift:implementation:properties:detailViewController</key>
+						<string>var detailViewController: DetailViewController? = nil</string>
+						<key>MasterViewController.swift:implementation:methods:viewDidLoad:barButtons</key>
+						<string>self.navigationItem.leftBarButtonItem = self.editButtonItem()
+
+let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: &quot;insertNewObject:&quot;)
+self.navigationItem.rightBarButtonItem = addButton
+</string>
+						<key>MasterViewController.swift:implementation:methods:insertNewObject:body</key>
+						<string>objects.insert(NSDate(), atIndex: 0)
+let indexPath = NSIndexPath(forRow: 0, inSection: 0)
+self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+</string>
+						<key>MasterViewController.swift:implementation:methods:numberOfSectionsInTableView:return</key>
+						<string>return 1</string>
+						<key>MasterViewController.swift:implementation:methods:numberOfRowsInSection:return</key>
+						<string>return objects.count</string>
+						<key>MasterViewController.swift:implementation:methods:cellForRowAtIndexPath:wrapper</key>
+						<dict>
+							<key>Beginning</key>
+							<string>let cell = tableView.dequeueReusableCellWithIdentifier(&quot;Cell&quot;, forIndexPath: indexPath)</string>
+							<key>End</key>
+							<string>return cell</string>
+						</dict>
+						<key>MasterViewController.swift:implementation:methods:cellForRowAtIndexPath:wrapper:configure</key>
+						<string>
+let object = objects[indexPath.row] as! NSDate
+cell.textLabel!.text = object.description
+</string>
+						<key>MasterViewController.swift:implementation:methods:canEditRowAtIndexPath:return</key>
+						<string>// Return false if you do not want the specified item to be editable.
+return true
+</string>
+						<key>MasterViewController.swift:implementation:methods:commitEditingStyle:body</key>
+						<string>if editingStyle == .Delete {
+    objects.removeAtIndex(indexPath.row)
+    tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+} else if editingStyle == .Insert {
+    // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+}
+</string>
+						<key>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper</key>
+						<dict>
+							<key>Beginning</key>
+							<string>if segue.identifier == &quot;showDetail&quot; {
+    if let indexPath = self.tableView.indexPathForSelectedRow {</string>
+							<key>End</key>
+							<string>    }
+}</string>
+						</dict>
+						<key>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper:object</key>
+						<string>        let object = objects[indexPath.row] as! NSDate</string>
+						<key>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper:setDetailItem</key>
+						<string>        let controller = segue.destinationViewController as! DetailViewController
+        controller.detailItem = object</string>
+						<key>DetailViewController.swift:implementation:properties:detailDescriptionLabel</key>
+						<string>@IBOutlet weak var detailDescriptionLabel: UILabel!</string>
+						<key>DetailViewController.swift:implementation:methods:detailItem:didSet</key>
+						<string>didSet {
+    // Update the view.
+    self.configureView()
+}
+</string>
+						<key>DetailViewController.swift:implementation:methods:configureView:detailDescriptionLabel</key>
+						<string>// Update the user interface for the detail item.
+if let detail = self.detailItem {
+    if let label = self.detailDescriptionLabel {
+        label.text = detail.description
+    }
+}</string>
+						<key>DetailViewController.swift:implementation:methods:viewDidLoad:configureView</key>
+						<string>self.configureView()</string>
+                        <!-- We need to specialize the implementation from the base template... but we can't do in in the node, so we override the definition here -->
+                        <key>AppDelegate.swift:implementation</key>
+                        <dict>
+                            <key>Beginning</key>
+                            <string>class ___*___ {
+</string>
+                            <key>End</key>
+                            <string>
+}
+</string>
+                            <key>Indent</key>
+                            <integer>1</integer>
+                        </dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>coreData</string>
+			<key>Units</key>
+			<dict>
+				<key>true</key>
+				<array>
+					<dict>
+						<!-- coreData=true -->
+						<key>Definitions</key>
+						<dict>
+							<key>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</key>
+							<dict>
+								<key>Path</key>
+								<string>___PACKAGENAMEASIDENTIFIER___.xcdatamodeld</string>
+							</dict>
+						</dict>
+					</dict>
+					<dict>
+						<!-- coreData=true && languageChoice=Objective-C -->
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>AppDelegate.m:imports:importHeader:MasterViewController.h</string>
+							<string>MasterViewController.h:imports:importFramework:CoreData</string>
+							<string>MasterViewController.h:interface(MasterViewController : UITableViewController &lt;NSFetchedResultsControllerDelegate&gt;)</string>
+							<string>MasterViewController.h:interface:detailViewController</string>
+							<string>MasterViewController.h:interface:coreData</string>
+							<string>MasterViewController.m:implementation:coreData</string>
+							<string>MasterViewController.m:implementation:methods:configureCell(- (void\)configureCell:(UITableViewCell *\)cell atIndexPath:(NSIndexPath *\)indexPath)</string>
+							<string>MasterViewController.m:implementation:methods:configureCell:body</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+							<string>// Override point for customization after application launch.
+
+UINavigationController *masterNavigationController = (UINavigationController *)self.window.rootViewController;
+MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+controller.managedObjectContext = self.managedObjectContext;</string>
+							<key>MasterViewController.h:interface:coreData</key>
+							<string>@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+</string>
+							<key>MasterViewController.m:implementation:methods:configureCell:body</key>
+							<string>NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+cell.textLabel.text = [[object valueForKey:@&quot;timeStamp&quot;] description];
+</string>
+							<key>MasterViewController.m:implementation:methods:insertNewObject:body</key>
+							<string>NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
+NSEntityDescription *entity = [[self.fetchedResultsController fetchRequest] entity];
+NSManagedObject *newManagedObject = [NSEntityDescription insertNewObjectForEntityForName:[entity name] inManagedObjectContext:context];
+    
+// If appropriate, configure the new managed object.
+// Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
+[newManagedObject setValue:[NSDate date] forKey:@&quot;timeStamp&quot;];
+    
+// Save the context.
+NSError *error = nil;
+if (![context save:&amp;error]) {
+    // Replace this implementation with code to handle the error appropriately.
+    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+    NSLog(@&quot;Unresolved error %@, %@&quot;, error, [error userInfo]);
+    abort();
+}
+</string>
+							<key>MasterViewController.m:implementation:coreData</key>
+							<string>#pragma mark - Fetched results controller
+
+- (NSFetchedResultsController *)fetchedResultsController
+{
+    if (_fetchedResultsController != nil) {
+        return _fetchedResultsController;
+    }
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    // Edit the entity name as appropriate.
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@&quot;Event&quot; inManagedObjectContext:self.managedObjectContext];
+    [fetchRequest setEntity:entity];
+    
+    // Set the batch size to a suitable number.
+    [fetchRequest setFetchBatchSize:20];
+    
+    // Edit the sort key as appropriate.
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@&quot;timeStamp&quot; ascending:NO];
+
+    [fetchRequest setSortDescriptors:@[sortDescriptor]];
+    
+    // Edit the section name key path and cache name if appropriate.
+    // nil for section name key path means &quot;no sections&quot;.
+    NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:@&quot;Master&quot;];
+    aFetchedResultsController.delegate = self;
+    self.fetchedResultsController = aFetchedResultsController;
+    
+	NSError *error = nil;
+	if (![self.fetchedResultsController performFetch:&amp;error]) {
+	     // Replace this implementation with code to handle the error appropriately.
+	     // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+	    NSLog(@&quot;Unresolved error %@, %@&quot;, error, [error userInfo]);
+	    abort();
+	}
+    
+    return _fetchedResultsController;
+}    
+
+- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
+{
+    [self.tableView beginUpdates];
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id &lt;NSFetchedResultsSectionInfo&gt;)sectionInfo
+           atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type
+{
+    switch(type) {
+        case NSFetchedResultsChangeInsert:
+            [self.tableView insertSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        default:
+            return;
+    }
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject
+       atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type
+      newIndexPath:(NSIndexPath *)newIndexPath
+{
+    UITableView *tableView = self.tableView;
+    
+    switch(type) {
+        case NSFetchedResultsChangeInsert:
+            [tableView insertRowsAtIndexPaths:@[newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeUpdate:
+            [self configureCell:[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+            break;
+            
+        case NSFetchedResultsChangeMove:
+            [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            [tableView insertRowsAtIndexPaths:@[newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+    }
+}
+
+- (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
+{
+    [self.tableView endUpdates];
+}
+
+/*
+// Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed. 
+ 
+ - (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
+{
+    // In the simplest, most efficient, case, reload the table view.
+    [self.tableView reloadData];
+}
+ */
+</string>
+							<key>MasterViewController.m:implementation:methods:numberOfSectionsInTableView:return</key>
+							<string>return [[self.fetchedResultsController sections] count];
+</string>
+							<key>MasterViewController.m:implementation:methods:numberOfRowsInSection:return</key>
+							<string>id &lt;NSFetchedResultsSectionInfo&gt; sectionInfo = [self.fetchedResultsController sections][section];
+return [sectionInfo numberOfObjects];
+</string>
+							<key>MasterViewController.m:implementation:methods:cellForRowAtIndexPath:wrapper:configure</key>
+							<string>[self configureCell:cell atIndexPath:indexPath];
+</string>
+							<key>MasterViewController.m:implementation:methods:commitEditingStyle:body</key>
+							<string>if (editingStyle == UITableViewCellEditingStyleDelete) {
+    NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
+    [context deleteObject:[self.fetchedResultsController objectAtIndexPath:indexPath]];
+        
+    NSError *error = nil;
+    if (![context save:&amp;error]) {
+        // Replace this implementation with code to handle the error appropriately.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        NSLog(@&quot;Unresolved error %@, %@&quot;, error, [error userInfo]);
+        abort();
+    }
+}
+</string>
+							<key>MasterViewController.m:implementation:methods:prepareForSegue:wrapper:object</key>
+							<string>    NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];</string>
+							<key>DetailViewController.m:implementation:methods:configureView:detailDescriptionLabel</key>
+							<string>// Update the user interface for the detail item.
+if (self.detailItem) {
+    self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@&quot;timeStamp&quot;] description];
+}</string>
+						</dict>
+					</dict>
+					<dict>
+						<!-- coreData=true && languageChoice=Swift -->
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>MasterViewController.swift:imports:importFramework:CoreData</string>
+							<string>MasterViewController.swift:implementation:properties:managedObjectContext</string>
+							<string>MasterViewController.swift:implementation:methods:configureCell(func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath\))</string>
+							<string>MasterViewController.swift:implementation:methods:configureCell:body</string>
+							<string>MasterViewController.swift:implementation:coreData</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+							<string>// Override point for customization after application launch.
+                                
+let masterNavigationController = window!.rootViewController as! UINavigationController
+let controller = masterNavigationController.topViewController as! MasterViewController
+controller.managedObjectContext = self.managedObjectContext</string>
+							<key>MasterViewController.swift:implementation</key>
+							<dict>
+								<key>Beginning</key>
+								<string>class MasterViewController: UITableViewController, NSFetchedResultsControllerDelegate {
+</string>
+								<key>End</key>
+								<string>
+}
+</string>
+								<key>Indent</key>
+								<integer>1</integer>
+							</dict>
+							<key>MasterViewController.swift:implementation:properties:managedObjectContext</key>
+							<string>var managedObjectContext: NSManagedObjectContext? = nil</string>
+							<key>MasterViewController.swift:implementation:methods:configureCell:body</key>
+                            <string>let object = self.fetchedResultsController.objectAtIndexPath(indexPath)
+cell.textLabel!.text = object.valueForKey(&quot;timeStamp&quot;)!.description
+</string>
+							<key>MasterViewController.swift:implementation:methods:insertNewObject:body</key>
+							<string>let context = self.fetchedResultsController.managedObjectContext
+let entity = self.fetchedResultsController.fetchRequest.entity!
+let newManagedObject = NSEntityDescription.insertNewObjectForEntityForName(entity.name!, inManagedObjectContext: context)
+     
+// If appropriate, configure the new managed object.
+// Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
+newManagedObject.setValue(NSDate(), forKey: &quot;timeStamp&quot;)
+     
+// Save the context.
+do {
+    try context.save()
+} catch {
+    // Replace this implementation with code to handle the error appropriately.
+    // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+    //print("Unresolved error \(error), \(error.userInfo)")
+    abort()
+}
+</string>
+							<key>MasterViewController.swift:implementation:coreData</key>
+							<string>// MARK: - Fetched results controller
+
+var fetchedResultsController: NSFetchedResultsController {
+    if _fetchedResultsController != nil {
+        return _fetchedResultsController!
+    }
+    
+    let fetchRequest = NSFetchRequest()
+    // Edit the entity name as appropriate.
+    let entity = NSEntityDescription.entityForName(&quot;Event&quot;, inManagedObjectContext: self.managedObjectContext!)
+    fetchRequest.entity = entity
+    
+    // Set the batch size to a suitable number.
+    fetchRequest.fetchBatchSize = 20
+    
+    // Edit the sort key as appropriate.
+    let sortDescriptor = NSSortDescriptor(key: &quot;timeStamp&quot;, ascending: false)
+    
+    fetchRequest.sortDescriptors = [sortDescriptor]
+    
+    // Edit the section name key path and cache name if appropriate.
+    // nil for section name key path means &quot;no sections&quot;.
+    let aFetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.managedObjectContext!, sectionNameKeyPath: nil, cacheName: &quot;Master&quot;)
+    aFetchedResultsController.delegate = self
+    _fetchedResultsController = aFetchedResultsController
+    
+    do {
+        try _fetchedResultsController!.performFetch()
+    } catch {
+         // Replace this implementation with code to handle the error appropriately.
+         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+         //print("Unresolved error \(error), \(error.userInfo)")
+         abort()
+    }
+    
+    return _fetchedResultsController!
+}    
+var _fetchedResultsController: NSFetchedResultsController? = nil
+
+func controllerWillChangeContent(controller: NSFetchedResultsController) {
+    self.tableView.beginUpdates()
+}
+
+func controller(controller: NSFetchedResultsController, didChangeSection sectionInfo: NSFetchedResultsSectionInfo, atIndex sectionIndex: Int, forChangeType type: NSFetchedResultsChangeType) {
+    switch type {
+        case .Insert:
+            self.tableView.insertSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
+        case .Delete:
+            self.tableView.deleteSections(NSIndexSet(index: sectionIndex), withRowAnimation: .Fade)
+        default:
+            return
+    }
+}
+
+func controller(controller: NSFetchedResultsController, didChangeObject anObject: AnyObject, atIndexPath indexPath: NSIndexPath?, forChangeType type: NSFetchedResultsChangeType, newIndexPath: NSIndexPath?) {
+    switch type {
+        case .Insert:
+            tableView.insertRowsAtIndexPaths([newIndexPath!], withRowAnimation: .Fade)
+        case .Delete:
+            tableView.deleteRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
+        case .Update:
+            self.configureCell(tableView.cellForRowAtIndexPath(indexPath!)!, atIndexPath: indexPath!)
+        case .Move:
+            tableView.deleteRowsAtIndexPaths([indexPath!], withRowAnimation: .Fade)
+            tableView.insertRowsAtIndexPaths([newIndexPath!], withRowAnimation: .Fade)
+    }
+}
+
+func controllerDidChangeContent(controller: NSFetchedResultsController) {
+    self.tableView.endUpdates()
+}
+
+/*
+ // Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed.
+ 
+ func controllerDidChangeContent(controller: NSFetchedResultsController) {
+     // In the simplest, most efficient, case, reload the table view.
+     self.tableView.reloadData()
+ }
+ */
+</string>
+							<key>MasterViewController.swift:implementation:methods:numberOfSectionsInTableView:return</key>
+							<string>return self.fetchedResultsController.sections?.count ?? 0
+</string>
+							<key>MasterViewController.swift:implementation:methods:numberOfRowsInSection:return</key>
+                            <string>let sectionInfo = self.fetchedResultsController.sections![section]
+return sectionInfo.numberOfObjects
+</string>
+							<key>MasterViewController.swift:implementation:methods:cellForRowAtIndexPath:wrapper:configure</key>
+							<string>self.configureCell(cell, atIndexPath: indexPath)
+</string>
+							<key>MasterViewController.swift:implementation:methods:commitEditingStyle:body</key>
+							<string>if editingStyle == .Delete {
+    let context = self.fetchedResultsController.managedObjectContext
+    context.deleteObject(self.fetchedResultsController.objectAtIndexPath(indexPath) as! NSManagedObject)
+        
+    do {
+        try context.save()
+    } catch {
+        // Replace this implementation with code to handle the error appropriately.
+        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+        //print("Unresolved error \(error), \(error.userInfo)")
+        abort()
+    }
+}
+</string>
+							<key>MasterViewController.swift:implementation:methods:prepareForSegue:wrapper:object</key>
+							<string>    let object = self.fetchedResultsController.objectAtIndexPath(indexPath)</string>
+							<key>DetailViewController.swift:implementation:methods:configureView:detailDescriptionLabel</key>
+							<string>// Update the user interface for the detail item.
+if let detail = self.detailItem {
+    if let label = self.detailDescriptionLabel {
+        label.text = detail.valueForKey(&quot;timeStamp&quot;)!.description
+    }
+}</string>
+						</dict>
+					</dict>
+				</array>
+				<key>false</key>
+				<array>
+					<dict>
+						<!-- coreData=false && languageChoice=Objective-C -->
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Objective-C</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>MasterViewController.h:interface(MasterViewController : UITableViewController)</string>
+							<string>MasterViewController.h:interface:detailViewController</string>
+							<string>MasterViewController.m:extension:objects</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>MasterViewController.m:extension:objects</key>
+							<string>@property NSMutableArray *objects;</string>
+						</dict>
+					</dict>
+					<dict>
+						<!-- coreData=false && languageChoice=Swift -->
+						<key>RequiredOptions</key>
+						<dict>
+							<key>languageChoice</key>
+							<string>Swift</string>
+						</dict>
+						<key>Nodes</key>
+						<array>
+							<string>MasterViewController.swift:implementation:properties:objects</string>
+						</array>
+						<key>Definitions</key>
+						<dict>
+							<key>MasterViewController.swift:implementation</key>
+							<dict>
+								<key>Beginning</key>
+								<string>class MasterViewController: UITableViewController {
+</string>
+								<key>End</key>
+								<string>
+}
+</string>
+								<key>Indent</key>
+								<integer>1</integer>
+							</dict>
+							<key>MasterViewController.swift:implementation:properties:objects</key>
+							<string>var objects = [AnyObject]()</string>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+		<string>Info.plist:statusBarTintForNavBar</string>
+	</array>
+    <key>Definitions</key>
+    <dict>
+        <key>Base.lproj/Main.storyboard</key>
+        <dict>
+            <key>Path</key>
+            <string>Main.storyboard</string>
+            <key>SortOrder</key>
+            <integer>99</integer>
+        </dict>
+    </dict>
+</dict>
+</plist>
