@@ -4,7 +4,7 @@ Nosplit is a Xcode template for an iOS master-detail app WITHOUT the split view 
 
 ## Installation
 
-- Move the template to ~/Library/Developer/Xcode/Templates/Custom/
+- Move the template to ~/Library/Developer/Xcode/Templates/Custom/ (note: note this is the Hidden `Library` inside your user folder, not the system `Library` at the root of your HD).
 - (You will have to make the Templates and Custom directories if you haven't installed templates before).
 - Run Xcode, select from the project template picker
 
